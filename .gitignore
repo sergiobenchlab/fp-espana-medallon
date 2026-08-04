@@ -1,3 +1,32 @@
+# ==== Datos crudos: NO se versionan ====
+data/raw/*
+!data/raw/.gitkeep
+*.xlsx
+*.xls
+*.csv
+*.parquet
+!data/samples/*.csv
+
+# ==== Credenciales ====
+.env
+.env.local
+*.pgpass
+credentials.json
+
+# ==== Power BI ====
+*.pbix
+*.pbit
+~$*
+
+# ==== Sistema ====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ==== DBeaver ====
+.dbeaver/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
