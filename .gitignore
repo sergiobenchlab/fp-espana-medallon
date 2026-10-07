@@ -245,3 +245,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==== T20 Colombia: salida de la compuerta (se regenera) ====
+colombia/t20/salida/
